@@ -23,17 +23,17 @@ Notes:
 
 ## The Client Server Architecture
 Web<br>
-	&emsp;the web is referred to as client-server communication because there is always a computer that asks for data (client) and the computer that gives the data (server).
+	&emsp;The web is referred to as client-server communication because there is always a computer that asks for data (client) and the computer that gives the data (server).<br>
 Client<br>
 	&emsp;the client (machine or program) is a way to make request from the server through web (most of the time).<br>
 Server<br>
-	&emsp;the server is a computer program not a device.<br>
-	&emsp;high performance computers are called servers because they run server program.<br>
-	&emsp;single server can serve multiple clients at the same time.<br>
-	&emsp;multiple servers can be run on one single machine (virtual servers)<br>
-server types:<br>
-	&emsp;web serve: such as Apache that servers HTTP request.<br>
-	&emsp;database server: MySQL that runs DBMS.<br>
+	&emsp;The server is a computer program not a device.<br>
+	&emsp;High performance computers are called servers because they run server program.<br>
+	&emsp;Single server can serve multiple clients at the same time.<br>
+	&emsp;Multiple servers can be run on one single machine (virtual servers)<br>
+Server types:<br>
+	&emsp;Web serve: such as Apache that servers HTTP request.<br>
+	&emsp;Database server: MySQL that runs DBMS.<br>
 Client-Server-Model<br>
 	&emsp;is a centralized architecture on the web that splits the computer into 2 sections:<br>
 		&emsp;&emsp;1- computers that asks for and request services (clients)<br>
@@ -41,10 +41,10 @@ Client-Server-Model<br>
 
 ## HTTP
 Hyper Text Transfer Protocol (HTTP)<br>
-	&emsp;responsible for communication between web servers and clients<br>
+	&emsp;Responsible for communication between web servers and clients<br>
 HTTPS
 	&emsp;All the data that is sent back and forth is encrypted by.<br>
-	&emsp;can be done by installing an SSL certificate on the web host <br>
+	&emsp;Can be done by installing an SSL certificate on the web host <br>
 HTTP methods  -> there are more<br>
 	&emsp;GET: retrieves the data from server<br>
 	&emsp;POST: submit data to the server<br>
