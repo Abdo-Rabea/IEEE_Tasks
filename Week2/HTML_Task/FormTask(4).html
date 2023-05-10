@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise</title>
+    <meta name="description" content="this is out test">
+    <style></style>
+    <script></script>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <form action="test.py" method="post">
+        <div>
+            <label>Username</label><br>
+            <input type="text" required placeholder="name" name="user">
+        </div>
+        <hr>
+        <div>
+            <label>Pasword</label><br>
+            <input type="password" placeholder="enter pass" name="pass">
+        </div>
+        <hr>
+        <div>
+            <label>Mobile</label><br>
+            <input type="tel" placeholder="Enter mobile num" name="phone">
+        </div>
+        <hr>
+        <div>
+            <label>Email</label><br>
+            <input type="email" required placeholder="email" name="email">
+        </div>
+        <hr>
+        <div>
+            <label>Subject</label><br>
+            <input type="text" placeholder="subject" name="subject">
+        </div>
+        <hr>
+        <input type="hidden" value="this is hidden tag" name="hidden">
+        <input type="reset" value="Empty Form">
+        <input type="color" name="color">
+        <br><br>
+        <hr>
+        <!-- task 2 -->
+        <input type="range" name="range" min="100" max="500" step="50" value="400">
+        <br>
+        <input type="number" min="20" max="50" step="10" value="20" name="num">
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

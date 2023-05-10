@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise</title>
+    <meta name="description" content="this is out test">
+    <style></style>
+    <script></script>
+
+</head>
+
+<body>
+    <form action="" method="get">
+        <!-- Task1 -->
+        <div>
+            <input type="text" hidden value="b92f1fc2fce391ad7af633723afd3055" name="token">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" readonly value="o@o.com" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="user">Username</label>
+            <input type="text" id="user" autofocus minlength="5" maxlength="20" required name="username">
+        </div>
+        <br>
+        <hr>
+        <!-- Task2 -->
+        <label>skill</label>
+        <div>
+            <input type="checkbox" id="ch1" name="Skill" value="Problem Solving" checked>
+            <label for="ch1">Problem Solving</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ch2" name="Skill" value="Logical Thinking">
+            <label for="ch2"> Logical Thinking</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ch3" name="Skill" value="Advanced Searc">
+            <label for="ch3">Advanced Search</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ch4" name="Skill" value="Analysis">
+            <label for="ch4">Analysis</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ch5" name="Skill" value="Planning">
+            <label for="ch5">Planning</label>
+        </div>
+        <hr>
+        <label>Job</label>
+        <div>
+            <input type="radio" id="r1" name="Job" value="Front-End Developer">
+            <label for="r1">Front-End Developer</label>
+        </div>
+        <div>
+            <input type="radio" id="r2" name="Job" value="Back-End Developer" checked>
+            <label for="r2"> Back-End Developer</label>
+        </div>
+        <div>
+            <input type="radio" id="r3" name="Job" value="Business Analyst">
+            <label for="r3">Business Analyst</label>
+        </div>
+        <div>
+            <input type="radio" id="r4" name="Job" value="Project Manager">
+            <label for="r4">Project Manager</label>
+        </div>
+        <div>
+            <input type="radio" id="r5" name="Job" value="Scrum Master">
+            <label for="r5">Scrum Master</label>
+        </div>
+        <hr>
+        <!-- Task3 -->
+        <label for="progsel">Chose lang version</label>
+        <select id="progsel" name="ProgramingLang">
+            <optgroup label="PHP">
+                <option value="v5.0">v5.0</option>
+                <option value="v7.0" selected>v7.0</option>
+                <option value="v8.0">v8.0</option>
+            </optgroup>
+            <optgroup label="Python">
+                <option value="v2.0">v2.0</option>
+                <option value="v3.0">v3.0</option>
+                <option value="v3.9">v3.9</option>
+            </optgroup>
+        </select>
+        <br>
+        <textarea name="info" cols="30" rows="10" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+        <br>
+        <input type="reset" value="Empty">
+        <br><br>
+        <input type="submit" value="Send">
+    </form>
+
+</body>
+
+</html>
