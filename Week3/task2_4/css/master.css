@@ -1,0 +1,47 @@
+body {
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; can be done using this without margin: auto*/
+    margin: 8px;
+    /*by default*/
+}
+
+table {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid #2F9688;
+    border-spacing: 1px;
+}
+
+table caption {
+    font-weight: bold;
+    padding: 15px;
+}
+
+table td {
+    background: #eee;
+    padding: 12px;
+}
+
+table thead td {
+    background-color: #404040;
+    color: white;
+    font-weight: bold;
+}
+
+table tbody button {
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+table tbody .view {
+    background-color: #3BAAF7;
+}
+
+table tbody .delete {
+    background-color: #DF1960;
+}

@@ -1,0 +1,54 @@
+body {
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; can be done using this without margin: auto*/
+    /* margin: 0px; */
+    /*by default*/
+}
+
+div {
+    background-color: #EEEEEE;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-width: 2px;
+    border-color: #EA402A #3E97F7;
+    border-style: solid;
+    position: relative;
+
+    line-height: 2;
+    text-align: center;
+}
+
+span {
+    line-height: 1.1;
+    background-color: #3E97F7;
+    color: white;
+    padding: 3px 10px;
+    position: absolute;
+}
+
+.top-left {
+    top: -12px;
+    left: -15.25px;
+    border-right: 2px solid #EA402A;
+}
+
+.bottom-left {
+    left: -15.25px;
+    bottom: -12px;
+    border-right: 2px solid #EA402A;
+}
+
+
+.top-right {
+    top: -12px;
+    right: -15.25px;
+    border-left: 2px solid #EA402A;
+}
+
+.bottom-right {
+    right: -15.25px;
+    bottom: -12px;
+    border-left: 2px solid #EA402A;
+}

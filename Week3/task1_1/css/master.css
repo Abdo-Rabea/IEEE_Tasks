@@ -1,0 +1,44 @@
+body {
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 8px;
+    /*by default*/
+}
+
+
+
+.parent {
+    background-color: #eee;
+    width: 800px;
+    font-weight: bold;
+}
+
+.parent div {
+    background-color: #ddd;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 20px 0px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.parent .full {
+    width: calc(100% - 2 * 15px);
+}
+
+.parent .one-third {
+    width: calc((100% - 4 * 15px) / 3);
+}
+
+.parent .half {
+    width: calc((100% - 3 * 15px) / 2);
+}
+
+.parent .quarter {
+    width: calc((100% - 5 * 15px) / 4);
+    margin-bottom: 15px;
+}

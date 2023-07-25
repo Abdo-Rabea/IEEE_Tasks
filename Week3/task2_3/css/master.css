@@ -1,0 +1,41 @@
+body {
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; can be done using this without margin: auto*/
+    /* margin: 0px; */
+    /*by default*/
+}
+
+.parent {
+    width: 400px;
+    margin: auto;
+}
+
+.parent .parent-li {
+    background-color: #eee;
+    /* border: 2px solid red; */
+    list-style: none;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.parent .parent-li li {
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.parent .parent-li ul {
+    list-style-position: inside;
+    padding-left: 3px;
+    margin-top: 10px;
+}
+
+.parent .parent-li ol {
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.parent .parent-li .rom {
+    list-style-type: upper-roman;
+}

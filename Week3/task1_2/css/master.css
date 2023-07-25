@@ -1,0 +1,26 @@
+body {
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    margin: 8px;
+    /*by default*/
+}
+
+div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #B3B3B3;
+    /* Get The Background From Image */
+    color: black;
+}
+
+.one {
+    background-color: rgb(179, 179, 179, 10%);
+}
+
+.two {
+    opacity: .1;
+}
