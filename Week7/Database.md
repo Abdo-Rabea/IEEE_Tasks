@@ -1,7 +1,6 @@
 
 # Entity-Relationship Diagram
 - - - - 
->set here good definition with picture
 
 ## why ERD? (importance of ERD)
 1. **Database Design:** ERD is used during database design which helps in defining the entities (tables), attributes (columns), and the relationships between entities.
