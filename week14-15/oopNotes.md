@@ -220,4 +220,4 @@ class Users extends Dbh
 ```
 
 -   MVC model
-    ![[Pasted image 20231008093327.png]]
+    ![[[Pasted image 20231008093327.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FModel%25E2%2580%2593view%25E2%2580%2593controller&psig=AOvVaw2DOUk-KtvBjedZ7XgMqvVo&ust=1696833238961000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPCMi4jt5YEDFQAAAAAdAAAAABAE)https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FModel%25E2%2580%2593view%25E2%2580%2593controller&psig=AOvVaw2DOUk-KtvBjedZ7XgMqvVo&ust=1696833238961000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPCMi4jt5YEDFQAAAAAdAAAAABAE]]
