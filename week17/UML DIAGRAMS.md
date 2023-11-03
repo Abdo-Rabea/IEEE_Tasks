@@ -11,8 +11,8 @@ the Purpose of uml is to provide a standardized annotation that can be used by a
 some apps. distributed system analysis, system design and deployment
 
 # UML Diagram Type
-==set here the image of all Diagrams==
-![[Pasted image 20231103133740.png]]
+<img src="./imgs/UML_Diagram_types.png" >
+![[UML_Diagram_types.png]]
 - why are there so many diagrams: because this can help to examine the system at different angles and there can be many participants involved in software development for example: analysts - architectures - coders - testers - quality control - customers; each of them require different level of details; so a coder would want to understand the design of the system to be able to convert it into low level code in contrast the technical writer would only be interested in the behavior of the system as a whole.
 ## Structural Diagrams
 **Definition**
@@ -35,10 +35,10 @@ some apps. distributed system analysis, system design and deployment
 	- attributes with their type 
 	- methods with their return type
 	- + public , - private
-	![[Pasted image 20231103141150.png|300]]
+	![[class_structure.png|300]]
 2. **Relationships between classes**
-	![[Pasted image 20231103143452.png|300]]
-	![[Pasted image 20231103165846.png|300]]
+	![[relationships_types.png|300]]
+	![[association.png|300]]
 	1. Association
 		- association represents a relationship between two or more classes, showing that objects of those classes are connected or associated with each other in some way.
 		  ex. (Teacher - class) unidirectional
@@ -125,7 +125,7 @@ some apps. distributed system analysis, system design and deployment
 4. **Roles:** Roles represent the specific part that an object plays in an association between classes.
 
 class diagram alongside with an object diagram
-![[Pasted image 20231103211735.png|300]]![[Pasted image 20231103211853.png|300]]
+![[class_object_example.png|300]]![[class_object_example2.png|300]]
 
 ### UML Package Diagram
 **Definition**
@@ -199,7 +199,7 @@ class diagram alongside with an object diagram
 6. **Initial and Final Nodes:** Initial nodes depict the starting point of the activity diagram, indicating where the process begins. Final nodes represent the end points of the process, showing where the activity or workflow terminates.
 
 **good ex.**
-![[Pasted image 20231103232705.png|300]]
+![[activity_diagram.png|300]]
 ### Sequence Diagram
 ==study again==
 **Definition**
