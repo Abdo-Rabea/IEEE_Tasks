@@ -38,7 +38,7 @@ some apps. distributed system analysis, system design and deployment
 	<img src="./imgs/class_structure.png" width="300px" >
 	![[class_structure.png|300]]
 2. **Relationships between classes**
-	<img src="./imgs/class_structure2.png" width="300px" >
+	<img src="./imgs/relationships_types.png" width="300px" >
 	![[relationships_types.png|300]]
 	<img src="./imgs/association.png" width="300px" >
 	![[association.png|300]]
