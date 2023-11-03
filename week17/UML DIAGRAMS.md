@@ -35,9 +35,12 @@ some apps. distributed system analysis, system design and deployment
 	- attributes with their type 
 	- methods with their return type
 	- + public , - private
+	<img src="./imgs/class_structure.png" width="300px" >
 	![[class_structure.png|300]]
 2. **Relationships between classes**
+	<img src="./imgs/class_structure2.png" width="300px" >
 	![[relationships_types.png|300]]
+	<img src="./imgs/association.png" width="300px" >
 	![[association.png|300]]
 	1. Association
 		- association represents a relationship between two or more classes, showing that objects of those classes are connected or associated with each other in some way.
@@ -125,6 +128,8 @@ some apps. distributed system analysis, system design and deployment
 4. **Roles:** Roles represent the specific part that an object plays in an association between classes.
 
 class diagram alongside with an object diagram
+<img src="./imgs/class_object_example.png" width="300px" >
+<img src="./imgs/class_object_example2.png" width="300px" >
 ![[class_object_example.png|300]]![[class_object_example2.png|300]]
 
 ### UML Package Diagram
@@ -199,6 +204,7 @@ class diagram alongside with an object diagram
 6. **Initial and Final Nodes:** Initial nodes depict the starting point of the activity diagram, indicating where the process begins. Final nodes represent the end points of the process, showing where the activity or workflow terminates.
 
 **good ex.**
+<img src="./imgs/activity_diagram.png" width="300px" >
 ![[activity_diagram.png|300]]
 ### Sequence Diagram
 ==study again==
