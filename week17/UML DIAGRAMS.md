@@ -12,7 +12,6 @@ some apps. distributed system analysis, system design and deployment
 
 # UML Diagram Type
 <img src="./imgs/UML_Diagram_types.png" >
-![[UML_Diagram_types.png]]
 - why are there so many diagrams: because this can help to examine the system at different angles and there can be many participants involved in software development for example: analysts - architectures - coders - testers - quality control - customers; each of them require different level of details; so a coder would want to understand the design of the system to be able to convert it into low level code in contrast the technical writer would only be interested in the behavior of the system as a whole.
 ## Structural Diagrams
 **Definition**
@@ -36,12 +35,9 @@ some apps. distributed system analysis, system design and deployment
 	- methods with their return type
 	- + public , - private
 	<img src="./imgs/class_structure.png" width="300px" >
-	![[class_structure.png|300]]
 2. **Relationships between classes**
 	<img src="./imgs/relationships_types.png" width="300px" >
-	![[relationships_types.png|300]]
 	<img src="./imgs/association.png" width="300px" >
-	![[association.png|300]]
 	1. Association
 		- association represents a relationship between two or more classes, showing that objects of those classes are connected or associated with each other in some way.
 		  ex. (Teacher - class) unidirectional
@@ -130,7 +126,6 @@ some apps. distributed system analysis, system design and deployment
 class diagram alongside with an object diagram
 <img src="./imgs/class_object_example.png" width="300px" >
 <img src="./imgs/class_object_example2.png" width="300px" >
-![[class_object_example.png|300]]![[class_object_example2.png|300]]
 
 ### UML Package Diagram
 **Definition**
@@ -205,7 +200,6 @@ class diagram alongside with an object diagram
 
 **good ex.**
 <img src="./imgs/activity_diagram.png" width="300px" >
-![[activity_diagram.png|300]]
 ### Sequence Diagram
 ==study again==
 **Definition**
