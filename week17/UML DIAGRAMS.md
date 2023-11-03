@@ -34,10 +34,10 @@ some apps. distributed system analysis, system design and deployment
 	- attributes with their type 
 	- methods with their return type
 	- + public , - private
-	<img src="./imgs/class_structure.png" width="300px" >
+	<img src="./imgs/class_structure.png" width="300px" style="display:block;">
 2. **Relationships between classes**
-	<img src="./imgs/relationships_types.png" width="300px" >
-	<img src="./imgs/association.png" width="300px" >
+	<img src="./imgs/relationships_types.png" width="300px" style="display:block;" >
+	<img src="./imgs/association.png" width="300px" style="display:block;">
 	1. Association
 		- association represents a relationship between two or more classes, showing that objects of those classes are connected or associated with each other in some way.
 		  ex. (Teacher - class) unidirectional
